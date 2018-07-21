@@ -1,8 +1,4 @@
-/*!
- * https://github.com/umarwebdeveloper/jquery-css-skills-bar
- * Author: @umarwebdeveloper
- * Licensed under the MIT license
- */
+
  
 (function ( $ ) {
  

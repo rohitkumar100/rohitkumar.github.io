@@ -1,27 +1,4 @@
-// circles
-// copyright Artan Sinani
-// https://github.com/lugolabs/circles
 
-/*
-  Lightwheight JavaScript library that generates circular graphs in SVG.
-
-  Call Circles.create(options) with the following options:
-
-    id         - the DOM element that will hold the graph
-    percentage - the percentage dictating the smaller circle
-    radius     - the radius of the circles
-    width      - the width of the ring (optional, has value 10, if not specified)
-    number     - the number to display at the centre of the graph (optional, the percentage will show if not specified)
-    text       - the text to display after the number (optional, nothing will show if not specified)
-    colors     - an array of colors, with the first item coloring the full circle 
-                 (optional, it will be `['#EEE', '#F00']` if not specified)
-    duration   - value in ms of animation duration; (optional, defaults to 500); 
-                 if `null` is passed, the animation will not run
-
-  API:
-    generate(radius) - regenerates the circle with the given radius (see spec/responsive.html for an example hot to create a responsive circle)
-
-*/
 
 (function() {
   var Circles = window.Circles = function(options) {
